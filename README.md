@@ -8,6 +8,9 @@
 </div>
 
 
+## Updates
+- Please star and ill release further updates for this bot
+
 
 ## 📦 Download Python 3.10.0
 
