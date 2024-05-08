@@ -32,9 +32,9 @@ python main.py
 ```
 
 
-### Scripts
+### Packages
 
-- Packages
-  - `pip install py-cord` : Run webpack for the cloud space
-  - `pip install requests` : Run webpack for the desktop app main window renderer
-  - `pip install discord` : Run webpack for the desktop app main processor
+- Must install otherwise it will not work:
+  - `pip install py-cord` 
+  - `pip install requests`
+  - `pip install discord`
