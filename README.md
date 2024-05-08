@@ -12,7 +12,7 @@
 ## 📦 Download Python 3.10.0
 
 
-- [🌎 Click here to download]((https://www.python.org/downloads/release/python-3100/))
+- [🌎 Click here to download: https://www.python.org/downloads/release/python-3100/)]
 
 ### How to run the bot
 
@@ -31,23 +31,6 @@ Now go to your console and run the following command:
 python main.py
 ```
 
-### How to extend mock backend
-
-When the mode is enabled, all API calls will be passed to `src/cloud/api/mock/mockHandler.ts`.
-
-The source code is quite similar to a router interface. All you need to is `method`, `pathname` and a handler function. So, when you confront `Not Found` error while calling `GET /api/something`, you can simply add a mock route like below.
-
-```ts
-{
-  method: 'get',
-  pathname: 'api/something',
-  handler: ({ search }): GetSomethingResponse => {
-    return {
-      ...something
-    }
-  },
-}
-```
 
 ### Scripts
 
